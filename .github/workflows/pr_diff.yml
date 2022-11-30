@@ -1,6 +1,6 @@
 name: "Check PR diff for line"
 on:
-  pull_request:
+  push:
     branches: [ main, master, develop ]
 
 jobs:
