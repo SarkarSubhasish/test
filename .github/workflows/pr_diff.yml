@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: PR Diff check
-      uses: SarkarSubhasish/github_pr_diff_check_actions-main
+      uses: SarkarSubhasish/github_pr_diff_check_actions-main@main
       # SarkarSubhasish/github_pr_diff_check_actions-main
       with:
         owner: ${{ github.repository_owner }}
